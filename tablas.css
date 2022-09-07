@@ -1,0 +1,10 @@
+body{
+    background-color: snow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(91, 190, 255);
+}
+td{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}

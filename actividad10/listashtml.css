@@ -1,0 +1,25 @@
+.sin{
+    list-style: none;
+}
+
+.circulo{
+    list-style: circle;
+}
+
+.cuadro{
+    list-style: square;
+}
+
+.romano{
+    list-style: lower-roman;
+}
+
+.griego{
+    list-style: lower-greek;
+}
+
+body{
+    background-color: azure;
+    color: darkslategray;
+    font-family: monospace;
+}

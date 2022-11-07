@@ -1,0 +1,15 @@
+.normal{
+    border-bottom: 2px blue solid;
+}
+
+.caja{
+    border: 2px gray solid;
+}
+
+.cortada{
+    border: 4px red dotted;
+}
+
+.verde{
+    border: 4px lightgreen dashed;
+}

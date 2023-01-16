@@ -1,0 +1,29 @@
+.a{
+    list-style: square;
+}
+
+.b{
+    list-style: lower-greek;
+}
+
+.c{
+    list-style: lower-alpha;
+}
+
+.d{
+    list-style: lower-roman;
+}
+
+body{
+    background-color: cadetblue;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.borde{
+    border: 2px red dotted ;
+}
+
+.borde2{
+    border: 20px blue double;
+}

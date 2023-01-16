@@ -1,0 +1,35 @@
+article{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 100px;
+    color: white;
+    grid-gap: 10px;
+}
+
+.header{
+    grid-column: span 12;
+    grid-row: 1;
+    background-color: blue;
+    text-align: center;
+}
+
+.index{
+    grid-column: span 4;
+    grid-row: span 4;
+    background-color: red;
+    text-align: center;
+}
+
+.content{
+    grid-column: 5/13;
+    grid-row: span 4;
+    background-color: green;
+    text-align: center;
+}
+
+.footer{
+    grid-column: span 12;
+    grid-row: 6;
+    background-color: darkorange;
+    text-align: center;
+}

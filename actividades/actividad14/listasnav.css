@@ -1,0 +1,15 @@
+ul{
+    list-style: armenian;
+}
+
+a{
+    text-decoration: none;
+    color:cornsilk;
+}
+
+body{
+    background-color: cadetblue;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}

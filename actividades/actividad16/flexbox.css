@@ -1,0 +1,26 @@
+li{
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;  
+    align-items: center;
+}
+
+.a{
+    flex: 1;
+}
+
+.b{
+    flex: 1;
+}

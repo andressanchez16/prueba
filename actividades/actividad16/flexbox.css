@@ -1,26 +1,16 @@
-li{
-    list-style: none;
-}
+@media (min-width: 1200px){
+    body{
+        background-color: aqua;
+    }
 
-.list{
-    display: flex;
-    justify-content: space-around;
-}
+    .nav{
+        /* display: flex;
+        justify-content: space-between; */
+    }
 
-.title{
-    display: flex;
-    justify-content: center;
-}
-
-.content{
-    display: flex;  
-    align-items: center;
-}
-
-.a{
-    flex: 1;
-}
-
-.b{
-    flex: 1;
+    .list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
 }

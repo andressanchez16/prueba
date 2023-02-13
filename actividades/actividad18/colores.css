@@ -1,0 +1,69 @@
+article{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    color: beige;
+}
+
+.a{
+    background-color: rgb(41, 201, 255);
+    padding: 20px;
+    width: 20%;
+}
+
+.b{
+    background-color: deepskyblue;
+    padding: 20px;
+    width: 20%;
+}
+
+.c{
+    background-color: dodgerblue;
+    padding: 20px;
+    width: 20%;
+}
+
+.d{
+    background-color: rgb(32, 125, 219);
+    padding: 20px;
+    width: 20%;
+}
+
+.e{
+    background-color: rgb(27, 106, 185);
+    padding: 20px;
+    width: 20%;
+}
+
+.f{
+    background-color: rgb(22, 87, 151);
+    padding: 20px;
+    width: 20%;
+}
+
+.g{
+    background-color: rgb(16, 64, 112);
+    padding: 20px;
+    width: 20%;
+}
+
+.rowr{
+    flex-direction: row-reverse;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.colr{
+    flex-direction: column-reverse;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrapr{
+    flex-wrap: wrap-reverse;
+}

@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(94, 191, 230);
+    color: aliceblue;
+}
+
+article{
+    display: flex;
+    font-style: italic;
+    margin: 10px;
+}
+
+.azul{
+    background-color: rgb(20, 100, 180);
+    width: 50%;
+    padding: 30px;
+
+}
+
+.rosa{
+    background-color: rgb(68, 162, 255);
+    width: 50%;
+    padding: 30px;
+}
+
+ul{
+    list-style:square;
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: blue ;
+}
+
+a:hover{
+    color: black;
+}

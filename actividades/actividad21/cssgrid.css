@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    background-color: lightblue;
+    padding: 20px;
+    color: white;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    background-color: lightblue;
+    padding: 20px;
+    color: white;
+}
+
+h1{
+   background-color: lightblue;
+   color: white;
+   padding: 20px;
+}
+
+.img1{
+    grid-column: 1;
+    background-color: lightblue;
+}
+
+.img2{
+    grid-column: 2;
+    background-color: lightblue;
+}
+
+.img3{
+    grid-column: 3;
+    background-color: lightblue;
+}
